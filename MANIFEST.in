@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include pyproject.toml
+include ruff.toml
+recursive-include django_role_based_masking *.py
+recursive-exclude tests *
+recursive-exclude docs *
+global-exclude __pycache__
+global-exclude *.py[co]
